@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:tag="layout/activity_section_two_0"
+    android:background="#c6c4c4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SectionTwoActivity">
+    <ScrollView 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent">
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:paddingBottom="20dp" 
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp" 
+            android:layout_marginRight="10dp">
+            <TextView 
+                android:textSize="16sp" 
+                android:textStyle="bold" 
+                android:textColor="#ffffff" 
+                android:gravity="center" 
+                android:background="#282323" 
+                android:padding="10dp" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:text="B. SUSPECTED ADVERSE EVENT INFORMATION" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type of event"
+                style="@style/tvStyle" />
+            <RadioGroup
+                android:orientation="vertical"
+                android:id="@+id/rgTypeofEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rbADB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Adverse drug reaction" />
+                <RadioButton
+                    android:id="@+id/rbPQP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Product quality problem" />
+                <RadioButton
+                    android:id="@+id/rbME"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Medication error" />
+            </RadioGroup>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suspected product"
+                style="@style/tvStyle" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Brand name"
+                    android:layout_weight="1.0">
+                    <EditText
+                        android:id="@+id/etBrandName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Generic name"
+                    android:layout_weight="1.0">
+                    <EditText
+                        android:id="@+id/etGenericName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Indication">
+                <EditText
+                    android:id="@+id/etIndication"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Start Date"
+                    android:layout_weight="1.0">
+                    <EditText
+                        android:id="@+id/etStartDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"  />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="End Date"
+                    android:layout_weight="1.0">
+                    <EditText
+                        android:id="@+id/etEndDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Dose [strength, unit]"
+                    android:layout_weight="1.0">
+                    <EditText
+                        android:id="@+id/etDose"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Dosage Form"
+                    android:layout_weight="1.0">
+                    <EditText
+                        android:id="@+id/etDosageForm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Frequency">
+                <EditText android:id="@+id/etFrequency"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <LinearLayout android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Batch/Lot number"
+                    android:layout_weight="1.0">
+                    <EditText
+                        android:id="@+id/etBatchLotNumbere"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:textColorHint="#000000"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Manufacturer"
+                    android:layout_weight="1.0">
+                    <EditText android:id="@+id/etManufacturer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Describe event including relevant tests  and laboratory results:"
+                android:lines="2" style="@style/tvStyle" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Here"  />
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date the event started">
+                <EditText android:id="@+id/etDateTheEventStarted"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date The Event was Reported">
+                <EditText
+                    android:id="@+id/etDateTheEventwasReported"
+                    android:layout_width="match_parent" android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date the event stopped">
+                <EditText
+                    android:id="@+id/etDateTheEventStopped"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Was the adverse event treated?"
+                style="@style/tvStyle" />
+            <RadioGroup
+                android:orientation="horizontal"
+                android:id="@+id/rgAdverseEventTreated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/rbAETYes"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1.0" />
+                <RadioButton
+                    android:id="@+id/rbAETNo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_weight="1.0" />
+            </RadioGroup>
+            <android.support.design.widget.TextInputLayout
+                android:textColorHint="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="If yes, please specify">
+                <EditText
+                    android:id="@+id/etSpecify"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </android.support.design.widget.TextInputLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Action taken after the reaction"
+                style="@style/tvStyle" />
+            <RadioGroup
+                android:orientation="vertical"
+                android:id="@+id/rgATAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/rbATARDoesStopped" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Dose stopped" />
+                <RadioButton android:id="@+id/rbATARDoesReduced" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Dose reduced" />
+                <RadioButton android:id="@+id/rbATARNoActionTaken" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No action taken" />
+            </RadioGroup>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Did reaction subside after stopping/reducing the dose of the suspected product?" style="@style/tvStyle" />
+            <RadioGroup android:orientation="horizontal" android:id="@+id/rgStoping" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/rbStpYes" android:layout_width="0dp" android:layout_height="match_parent" android:text="Yes" android:layout_weight="1.0" />
+                <RadioButton android:id="@+id/rbSTPNo" android:layout_width="0dp" android:layout_height="match_parent" android:text="No" android:layout_weight="1.0" />
+                <RadioButton android:id="@+id/rbSTPNotApplicable" android:layout_width="0dp" android:layout_height="match_parent" android:text="Not applicable" android:layout_weight="2.0" />
+            </RadioGroup>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Did reaction appear after reintroducing the suspected product?" style="@style/tvStyle" />
+            <RadioGroup android:orientation="horizontal" android:id="@+id/rgRTD" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/rbRtdYes" android:layout_width="0dp" android:layout_height="match_parent" android:text="Yes" android:layout_weight="1.0" />
+                <RadioButton android:id="@+id/rbRtdNo" android:layout_width="0dp" android:layout_height="match_parent" android:text="No" android:layout_weight="1.0" />
+                <RadioButton android:id="@+id/rbRtdNotApplicable" android:layout_width="0dp" android:layout_height="match_parent" android:text="Not applicable" android:layout_weight="2.0" />
+            </RadioGroup>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Seriousness of the adverse event:" style="@style/tvStyle" />
+            <RadioGroup android:orientation="vertical" android:id="@+id/rgSAE" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/rbNotSerious" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Not serious" />
+                <RadioButton android:id="@+id/rbHptlPorHosp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Hospitalization or prolongation of hospitalization" />
+                <RadioButton android:id="@+id/rbDisability" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Disability or permanent damage" />
+                <RadioButton android:id="@+id/rbCongenital" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Congenital anomaly/birth defect" />
+                <RadioButton android:id="@+id/rbLifeThreatening" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Life threatening" />
+                <RadioButton android:id="@+id/rbOther" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Other serious" />
+                <RadioButton android:id="@+id/rbDeath" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Death" />
+            </RadioGroup>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Outcomes attributed to the adverse event:" style="@style/tvStyle" />
+            <RadioGroup android:orientation="vertical" android:id="@+id/rgOAAE" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@+id/rbRecovered" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Recovered" />
+                <RadioButton android:id="@+id/rbResolved" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Recovered/resolved with sequela" />
+                <RadioButton android:id="@+id/rbNotRecovered" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Not recovered" />
+                <RadioButton android:id="@+id/rbUnknown" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Unknown" />
+                <RadioButton android:id="@+id/rbFatal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Fatal" />
+            </RadioGroup>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Other relevant history (including pre-existing medical conditions, allergies, pregnancy, smoking, alcohol     use, liver or kidney problems, hypersensitivity, history of ADRs, etc.):" style="@style/tvStyle" />
+            <EditText android:id="@+id/etOtherRelevantHistory" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Wright Here" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+            <Button android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:id="@+id/brnNextThird"
+                android:background="@drawable/btn_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Next"
+                android:onClick="gotoSectionThree"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,44 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#c6c4c4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <Button
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn_background"
+        android:padding="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Survey"
+        android:onClick="surveyClick"
+        android:textAllCaps="false" />
+    <Button
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn_background"
+        android:padding="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="ADR Repoting"
+        android:onClick="ADRRepotingClick"
+        android:textAllCaps="false" />
+    <Button
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn_background"
+        android:padding="20dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Banned Medicine"
+        android:onClick="BannedMedicineClick"
+        android:textAllCaps="false" />
+</LinearLayout>

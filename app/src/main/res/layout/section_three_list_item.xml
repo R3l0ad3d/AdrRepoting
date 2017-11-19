@@ -1,0 +1,58 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:tag="layout/section_three_list_item_0"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <TableRow
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvProductName" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Brand Name" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvBrandName" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Generic Name" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvGenericName" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Indication" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvIndicationName" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Dosage Form" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvDosageForm" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Route" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvRoute" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Dose" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvDose" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Frequency" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvFrequency" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Date Started" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvDateStarted" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+        <TableRow android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Date Stopped" android:layout_weight="1.0" />
+            <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvDateStopped" android:padding="5dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Product Name" android:layout_weight="1.0" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:tag="layout/section_three_dialog_item_0" android:background="#c6c4c4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TableLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="10dp">
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Product Name" android:layout_weight="1.0">
+                <EditText android:id="@+id/etProductName" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Brand Name" android:layout_weight="1.0">
+                <EditText android:id="@+id/etBrandName" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Generic Name" android:layout_weight="1.0">
+                <EditText android:id="@+id/etGenericName" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Indication" android:layout_weight="1.0">
+                <EditText android:id="@+id/etIndicationName" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Dosage Form" android:layout_weight="1.0">
+                <EditText android:id="@+id/etDosageFrom" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Route" android:layout_weight="1.0">
+                <EditText android:id="@+id/etRoute" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Dose " android:layout_weight="1.0">
+                <EditText android:id="@+id/etDose" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Frequency" android:layout_weight="1.0">
+                <EditText android:id="@+id/etFrequency" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Date Started" android:layout_weight="1.0">
+                <EditText android:id="@+id/etDateStarted" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout android:textColorHint="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="Date Stopped" android:layout_weight="1.0">
+                <EditText android:id="@+id/etDateStopped" android:layout_width="match_parent" android:layout_height="match_parent" />
+            </android.support.design.widget.TextInputLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
